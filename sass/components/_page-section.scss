@@ -1,0 +1,41 @@
+.page-section{
+	padding: 90px 0px;
+	background-color: white;
+	color: $levelup-brown; 
+
+	&--brown{
+		background-color: $levelup-brown; 
+		color:white; 
+	}
+
+
+	&__title{
+		font-size: 35px;
+    	text-align: center;
+    	margin: 0 auto;
+    	padding: 0;
+    	font-weight: 500;
+    	@include at-media-breakpoint(600px) {
+    		font-size:45px;
+
+    	}
+	}
+
+	&__description{
+		text-align: center;
+	    padding: 0 0.5rem;
+	    margin-bottom: 45px;
+	    font-size: 14px;
+	    line-height: 1.4em;
+	    text-transform: none;
+	    letter-spacing: .04em;
+	    font-weight: 400;
+	    max-width: 600px;
+	    margin-right:auto;
+	    margin-left: auto;
+	    
+	    @include at-media-breakpoint(600px) {
+    		font-size:16px;
+    	}
+	}
+}

@@ -1,0 +1,39 @@
+.seperator{
+	&__short{
+		width: 90px;
+    	margin: 15px auto 30px auto;
+    	
+    	&--thick{
+    		border: solid 3px black;
+    	}
+    	&--thin{
+    		border: solid 1px black;
+    	}
+    	&--white{
+    		border-color: white; 
+    	}
+        &--gray{
+            border-color: $levelup-gray; 
+        }
+	}
+    &__small-margin{
+        margin: 5px auto;
+    }
+    &__medium{
+        width: 180px;
+        margin: 15px auto 30px auto;
+        
+        &--thick{
+            border: solid 3px black;
+        }
+        &--thin{
+            border: solid 1px black;
+        }
+        &--white{
+            border-color: white; 
+        }
+        &--gray{
+            border-color: $levelup-gray; 
+        }
+    }
+}

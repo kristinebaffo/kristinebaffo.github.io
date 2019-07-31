@@ -1,0 +1,30 @@
+// _base.scss
+// ---------------------------------------------------------------------------//
+
+//Core Base Partials
+@import "_normalize";
+@import "_tagPreset";
+@import "_variables";
+@import "_mixins";
+
+body {
+ 	background-color:white;
+  	font-family: $main-font;
+  	font-size: $base-font-size;
+  	line-height:$base-line-height;
+	color: $base-text-color;
+	overflow-x: hidden;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+a{
+	color:$base-link-color;
+	text-decoration: none;
+	cursor: pointer;
+   	touch-action: manipulation;
+   	-ms-touch-action: manipulation;
+	&:hover{
+		color:$base-hover-color;  
+	}
+}

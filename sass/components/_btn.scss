@@ -1,0 +1,51 @@
+.btn{
+	background-color:white;
+	color:$portfolio-blue;
+	max-width:480px; 
+	
+	display: block;
+	margin:0 auto;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	
+
+	padding:.75rem 1.2rem; 
+    border: 2px solid transparent;
+    
+    font-size: 15px;
+    letter-spacing: .14em;
+    font-weight: 700;
+    font-style: normal;
+
+
+    vertical-align: middle;
+    background-image: none;
+    white-space: nowrap;
+
+    cursor: pointer;
+    touch-action: manipulation;
+    -ms-touch-action: manipulation;
+
+    -webkit-transition: color 100ms ease-in, border-color 100ms ease-in;
+    transition: color 100ms ease-in, border-color 100ms ease-in;
+    
+
+	&--large{
+		max-width:100%; 
+	}
+
+	&--brown-text{
+		color:$portfolio-brown;
+		&:hover{
+			color:$portfolio-blue; 
+		}
+	}
+
+	// &--black{
+	// 	background-color: white;
+	// 	color:black;
+	// 	border: 2px solid black;
+	// }
+
+}

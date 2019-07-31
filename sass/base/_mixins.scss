@@ -1,0 +1,22 @@
+// _mixins
+// ---------------------------------------------------------------------------//
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+// How to Use: 
+// @mixin clearfix; 
+
+@mixin at-media-breakpoint($width) {
+  @media (min-width: $width){
+    @content;
+  }
+}
+// How to Use: 
+// @include at-media-breakpoint(960px) {
+//   background: red;
+// }

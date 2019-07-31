@@ -1,0 +1,45 @@
+.social-icons{
+	display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top:30px;
+    width:90%;
+    margin-right:auto;
+    margin-left: auto;
+
+    @include at-media-breakpoint(400px) {
+        width:80%;
+    }
+    @include at-media-breakpoint(600px) {
+        width:60%;
+    }
+
+    &__icon-group:hover{
+        img{
+            border: solid 2px $portfolio-blue; 
+            border-radius: 48px;
+        }
+    }
+
+    &__icon{
+    	width: 30px;
+    	height: 30px;
+    	cursor: pointer;
+    	touch-action: manipulation;
+    	-ms-touch-action: manipulation;
+
+    	@include at-media-breakpoint(600px) {
+			width:36px;
+			height: 36px;
+		}
+    }
+
+    &__text{
+    	font-weight: bold;
+    	margin-top: 5px;
+    	text-align: center;
+    	text-transform: uppercase;
+    	font-size: 12px;
+    }
+
+}

@@ -1,0 +1,59 @@
+@keyframes bouncing {
+    0% {
+        bottom: 0;
+    }
+    50% {
+        bottom: 20px;
+    }
+    100% {
+        bottom: 0;
+    }
+}
+/* Firefox < 16 */
+@-moz-keyframes bouncing {
+    0% {
+        bottom: 0;
+    }
+    50% {
+        bottom: 20px;
+    }
+    100% {
+        bottom: 0;
+    }
+}
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes bouncing {
+    0% {
+        bottom: 0;
+    }
+    50% {
+        bottom: 20px;
+    }
+    100% {
+        bottom: 0;
+    }
+}
+/* Internet Explorer  -- the whole world hates ie -__- */
+// @-ms-keyframesbouncing {
+//     0% {
+//         bottom: 0;
+//     }
+//     50% {
+//         bottom: 20px;
+//     }
+//     100% {
+//         bottom: 0;
+//     }
+// }
+/* Opera < 12.1 */
+@-o-keyframes bouncing {
+    0% {
+        bottom: 0;
+    }
+    50% {
+        bottom: 20px;
+    }
+    100% {
+        bottom: 0;
+    }
+}
