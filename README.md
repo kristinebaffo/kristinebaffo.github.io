@@ -8,7 +8,7 @@ Description: Portfolio website for Kritine Baffo.
 
 Project Status : In Development
 
-GitHub Pages Link - https://krissygithub.github.io/
+GitHub Pages Link - https://kristinebaffo.github.io/
 
 Website - http://kristinebaffo.com/
 
