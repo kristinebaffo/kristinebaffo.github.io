@@ -2,7 +2,7 @@
 
 ---
 
-Author(s): Robert Neal 
+Author(s): Robert Neal, Kristine Baffo
 
 Description: Portfolio website for Kritine Baffo. 
 
